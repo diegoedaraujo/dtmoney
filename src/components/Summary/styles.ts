@@ -18,7 +18,7 @@ export const Container = styled.div`
       justify-content: space-between;
     }
     strong {
-      display: block;
+      display: block;// por padrão o strong vem com display: inline e o margin-top não funciona
       margin-top: 1rem;
       font-size: 2rem;
       font-weight: 500;

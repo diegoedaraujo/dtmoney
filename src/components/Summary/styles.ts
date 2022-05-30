@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);//3 colunas e um tamanho fixo
   gap: 2rem; //espaço entre os itens
   margin-top: -10rem;
 
